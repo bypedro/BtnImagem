@@ -1,0 +1,9 @@
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\bin\Release\BtnImagem.dll
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\bin\Release\BtnImagem.pdb
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\bin\Release\BtnImagem.xml
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Release\BtnImagem.BtnImagem.resources
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Release\BtnImagem.Resources.resources
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Release\BtnImagem.vbproj.GenerateResource.Cache
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Release\BtnImagem.dll
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Release\BtnImagem.xml
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Release\BtnImagem.pdb

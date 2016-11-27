@@ -1,0 +1,18 @@
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\bin\Debug\BtnImagem.dll
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\bin\Debug\BtnImagem.pdb
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\bin\Debug\BtnImagem.xml
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\obj\Debug\BtnImagem.BtnImagem.resources
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\obj\Debug\BtnImagem.Resources.resources
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\obj\Debug\BtnImagem.vbproj.GenerateResource.Cache
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\obj\Debug\BtnImagem.dll
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\obj\Debug\BtnImagem.xml
+C:\Users\Pedro\AppData\Local\Temporary Projects\BtnImagem\obj\Debug\BtnImagem.pdb
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\bin\Debug\BtnImagem.dll
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\bin\Debug\BtnImagem.pdb
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\bin\Debug\BtnImagem.xml
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Debug\BtnImagem.BtnImagem.resources
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Debug\BtnImagem.Resources.resources
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Debug\BtnImagem.vbproj.GenerateResource.Cache
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Debug\BtnImagem.dll
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Debug\BtnImagem.xml
+C:\Users\Pedro\documents\visual studio 2010\Projects\BtnImagem\BtnImagem\obj\Debug\BtnImagem.pdb
