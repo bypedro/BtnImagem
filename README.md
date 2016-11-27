@@ -1,2 +1,2 @@
 # BtnImagem
-Butão com Imagem
+Botão com Imagem
