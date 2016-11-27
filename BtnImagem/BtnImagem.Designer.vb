@@ -58,7 +58,7 @@ Partial Class BtnImagem
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents LblTexto As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Private WithEvents LblTexto As System.Windows.Forms.Label
+    Private WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class
