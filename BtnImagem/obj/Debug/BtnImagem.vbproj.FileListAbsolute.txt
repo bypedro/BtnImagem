@@ -25,3 +25,12 @@ C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.vbproj.G
 C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.dll
 C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.xml
 C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.pdb
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\bin\Debug\BtnImagem.dll
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\bin\Debug\BtnImagem.pdb
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\bin\Debug\BtnImagem.xml
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.BtnImagem.resources
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.Resources.resources
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.vbproj.GenerateResource.Cache
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.dll
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.xml
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Debug\BtnImagem.pdb

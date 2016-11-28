@@ -16,3 +16,12 @@ C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.vbproj
 C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.dll
 C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.xml
 C:\Users\Pedro\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.pdb
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\bin\Release\BtnImagem.dll
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\bin\Release\BtnImagem.pdb
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\bin\Release\BtnImagem.xml
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.BtnImagem.resources
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.Resources.resources
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.vbproj.GenerateResource.Cache
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.dll
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.xml
+C:\Users\12F\Documents\GitHub\BtnImagem\BtnImagem\obj\Release\BtnImagem.pdb
