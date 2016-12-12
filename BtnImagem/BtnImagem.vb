@@ -1,9 +1,21 @@
 Imports System.Drawing.Text
 Imports System.Drawing
-
+'Define evento primário->
+<System.ComponentModel.DefaultEventAttribute("Click")> _
 Public Class BtnImagem
-
-    Public Property zCorSecundaria As Color = Color.Gray
+    Public Property zCorSelecionado As Color = Color.SteelBlue
+    Public Property zCorFundo As Color = Color.SlateGray
+    '    Get
+    '        zCorFundo = Me.BackColor
+    '    End Get
+    '    Set(ByVal value As Color)
+    '        Me.BackColor = value
+    '    End Set
+    'End Property
+    'Ver outra solução
+    Public Property zCorHover As Color = Color.LightSlateGray
+    Dim corfundo As Color = zCorFundo
+    Dim corselecionado As Color = zCorSelecionado
 
     Public Property zTamanhoLetra As Integer
         Get
@@ -13,7 +25,6 @@ Public Class BtnImagem
             LblTexto.Font = CustomFont.GetInstance(value, FontStyle.Bold)
         End Set
     End Property
-
     Public Property zTexto As String
         Get
             zTexto = LblTexto.Text
@@ -23,85 +34,81 @@ Public Class BtnImagem
         End Set
     End Property
 
-    Public Property zCorFundo As Color
-        Get
-            zCorFundo = Me.BackColor
-        End Get
-        Set(ByVal value As Color)
-            Me.BackColor = value
-        End Set
-    End Property
-
     Public Property zImagem As System.Drawing.Bitmap
         Get
-            zImagem = PictureBox1.Image
+            zImagem = Imagem.Image
         End Get
         Set(ByVal value As System.Drawing.Bitmap)
-            PictureBox1.Image = value
+            Imagem.Image = value
         End Set
     End Property
 
     Public Property zComprimentoImagem As Integer
         Get
-            zComprimentoImagem = PictureBox1.Width
+            zComprimentoImagem = Imagem.Width
         End Get
         Set(ByVal value As Integer)
-            PictureBox1.Width = value
+            Imagem.Width = value
         End Set
     End Property
 
     Public Property zAlturaImagem As Integer
         Get
-            zAlturaImagem = PictureBox1.Height
+            zAlturaImagem = Imagem.Height
         End Get
         Set(ByVal value As Integer)
-            PictureBox1.Height = value
+            Imagem.Height = value
         End Set
     End Property
 
+    Public Property zEstadoBotao As Boolean = False
+
     Private Sub BtnImagem_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         LblTexto.Font = CustomFont.GetInstance(zTamanhoLetra, FontStyle.Bold)
-    End Sub
-
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
-        BtnImagem_Click(sender, e)
-    End Sub
-
-    Private Sub LblTexto_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LblTexto.Click
-        BtnImagem_Click(sender, e)
+        If zEstadoBotao = False Then
+            Me.BackColor = zCorFundo
+        Else
+            Me.BackColor = corselecionado
+        End If
     End Sub
 
 
 
-
-    Private Sub BtnImagem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Click
-
+    Private Sub EventoClick()
+        corfundo = zCorFundo
+        corselecionado = zCorSelecionado
+        If zEstadoBotao = False Then
+            Me.BackColor = corselecionado
+            zEstadoBotao = True
+            'ElseIf zEstadoBotao = True Then
+            '    Me.BackColor = corfundo
+            '    zEstadoBotao = False
+            'Não sei se necessito disto
+        End If
     End Sub
 
-    ''Style
-    Private Sub BtnImagem_Hover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.MouseHover
-        Me.BackColor = zCorSecundaria
+
+    Private Sub btnImagem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Click, LblTexto.Click, Imagem.Click
+        EventoClick()
     End Sub
 
-    Private Sub BtnImagem_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.MouseLeave
-        Me.BackColor = zCorFundo
+    Private Sub Btnhover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.MouseHover, LblTexto.MouseHover, Imagem.MouseHover
+        If zEstadoBotao = False Then
+            Me.BackColor = zCorHover
+        End If
+    End Sub
+    Private Sub Btnleave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.MouseLeave, Imagem.MouseLeave, LblTexto.MouseLeave
+        If zEstadoBotao = False Then
+            Me.BackColor = corfundo
+        End If
     End Sub
 
-
-    Private Sub PictureBox1_hover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.MouseHover
-        Me.BackColor = zCorSecundaria
+    Public Sub VerificarEstadoBotao()
+        If zEstadoBotao = False Then
+            Me.BackColor = corfundo
+        End If
+        If zEstadoBotao = True Then
+            Me.BackColor = corselecionado
+        End If
     End Sub
-
-    Private Sub PictureBox1_leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.MouseLeave
-        Me.BackColor = zCorFundo
-    End Sub
-
-    Private Sub LblTexto_Hover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LblTexto.MouseHover
-        Me.BackColor = zCorSecundaria
-    End Sub
-
-    Private Sub LblTexto_leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LblTexto.MouseLeave
-        Me.BackColor = zCorFundo
-    End Sub
-
 End Class

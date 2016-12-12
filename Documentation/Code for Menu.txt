@@ -1,0 +1,15 @@
+    Private Sub BtnImagem1_Load_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnImagem1.Click
+        If BtnImagem2.EstadoBotao = True Then
+            BtnImagem2.EstadoBotao = False
+            BtnImagem2.VerificarEstadoBotao()
+        End If
+    End Sub
+
+    Private Sub BtnImagem2_Load_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnImagem2.Click
+        If BtnImagem1.EstadoBotao = True Then
+            BtnImagem1.EstadoBotao = False
+            BtnImagem1.VerificarEstadoBotao()
+        End If
+    End Sub
+
+Ver Test

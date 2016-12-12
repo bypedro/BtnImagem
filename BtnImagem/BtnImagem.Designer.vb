@@ -23,42 +23,43 @@ Partial Class BtnImagem
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.LblTexto = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Imagem = New System.Windows.Forms.PictureBox()
+        CType(Me.Imagem, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LblTexto
         '
         Me.LblTexto.AutoSize = True
-        Me.LblTexto.Location = New System.Drawing.Point(59, 21)
+        Me.LblTexto.Location = New System.Drawing.Point(47, 15)
         Me.LblTexto.Name = "LblTexto"
-        Me.LblTexto.Size = New System.Drawing.Size(43, 13)
+        Me.LblTexto.Size = New System.Drawing.Size(34, 13)
         Me.LblTexto.TabIndex = 0
-        Me.LblTexto.Text = "TEXTO"
+        Me.LblTexto.Text = "Texto"
         '
-        'PictureBox1
+        'Imagem
         '
-        Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.Imagem.BackColor = System.Drawing.Color.Transparent
+        Me.Imagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Imagem.Location = New System.Drawing.Point(3, 3)
+        Me.Imagem.Name = "Imagem"
+        Me.Imagem.Size = New System.Drawing.Size(38, 38)
+        Me.Imagem.TabIndex = 1
+        Me.Imagem.TabStop = False
         '
         'BtnImagem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Imagem)
         Me.Controls.Add(Me.LblTexto)
         Me.Name = "BtnImagem"
-        Me.Size = New System.Drawing.Size(172, 57)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Size = New System.Drawing.Size(200, 44)
+        CType(Me.Imagem, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Private WithEvents LblTexto As System.Windows.Forms.Label
-    Private WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Public WithEvents LblTexto As System.Windows.Forms.Label
+    Public WithEvents Imagem As System.Windows.Forms.PictureBox
 
 End Class
